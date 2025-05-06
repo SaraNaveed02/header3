@@ -1,0 +1,91 @@
+.navdiv {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar {
+  display: flex;
+  z-index: 3;
+}
+
+.navbar a {
+  margin-right: .5rem;
+  padding-right: 8%;
+  color: black;
+  text-decoration: none;
+  font-size: medium;
+  text-transform: capitalize;
+}
+.contactbutton {
+  border-radius: 5rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 26px;
+  padding-right: 26px;
+  background-image: linear-gradient(to right, #da22ff, #9733ee);
+  color: white;
+  text-transform: capitalize;
+}
+.herosection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50rem;
+}
+.column1 {
+  padding-top: 5rem;
+  color: black;
+  padding-left: 2rem;
+}
+.column1 h1 {
+  font-size: 3rem;
+}
+.span1 {
+  color: rgba(255, 0, 238, 0.667);
+}
+.span2 {
+  color: coral;
+}
+.subscribebutton {
+  border-radius: 5rem;
+  border-color: #9733ee;
+  width: 200px;
+  height: 50px;
+  font-size: larger;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 23px;
+  padding-right: 23px;
+  background-image: linear-gradient(to right, #da22ff, #9733ee);
+  color: white;
+  text-transform: capitalize;
+}
+.column1 div input {
+  border: none;
+  width: 200px;
+  height: 50px;
+font-size: larger;
+
+}
+.column2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.img1 {
+  z-index: 0;
+  width: 550px;
+  height: 450px;
+  top: 100px;
+  left: 600px;
+  motion-rotation: 9.35°;
+  position: absolute;
+}
+.img2 {
+  z-index: 1;
+  position: absolute;
+  width: 400px;
+  height: 300px;
+  top: 200px;
+  left: 660px;
+}
